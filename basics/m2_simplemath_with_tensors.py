@@ -23,3 +23,6 @@ print("sum(x) / prod(y): ", sess.run(final_div))
 print("mean(sum(x),   prod(y))", sess.run(final_mean))
 
 writer = tf.summary.FileWriter('./m2_example4', sess.graph)
+
+writer.close()
+sess.close()
