@@ -21,3 +21,7 @@ print("Square of a: ", sess.run(square))
 print("Power of a: ", sess.run(power))
 print("Square root of d: ", sess.run(sqrt))
 print("Sum of squre, power and square root ", sess.run(final_sum))
+
+writer = tf.summary.FileWriter("./m2_example2",  sess.graph)
+writer.close()
+sess.close()
