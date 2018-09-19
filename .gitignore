@@ -42,5 +42,5 @@ tags
 
 .ropenproject
 
-tensorflow-js/node_modules
+/tensorflow-js/node_modules
 *.swp
