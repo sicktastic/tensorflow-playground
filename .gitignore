@@ -41,3 +41,6 @@ Session.vim
 tags
 
 .ropenproject
+
+tensorflow-js/node_modules
+*.swp
